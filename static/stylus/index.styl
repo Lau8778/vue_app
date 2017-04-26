@@ -1,0 +1,167 @@
+$rem(n)
+  16*n/1080 rem
+
+.toTop
+  position fixed
+  right 2%
+  bottom 3rem
+  width 1.4rem
+  height 1.4rem
+  color #FFFFFF
+  background-color rgba(0, 0, 0, .8)
+  border-radius 50%
+  overflow hidden
+  &:after
+    content ''
+    display block
+    width 1.4rem
+    height 1.4rem
+    background url("../img/arrowLeft.png") no-repeat center
+    background-size 60%
+#topbar
+  position fixed
+  z-index 100
+  top 0
+  width 100%
+  .wrap-head
+    position relative
+    height $rem(126)
+    background-color #89be48
+    .header-icon
+      width 100%
+      height $rem(126)
+      background url("../img/title.png") no-repeat center
+      background-size 50%
+    &>a
+      .header-typeimg
+        display block
+        width $rem(126)
+        height $rem(126)
+        position absolute
+        top 0
+        right 0
+        background url("../img/search.png") no-repeat center
+        background-size 45%
+  .wrap-menuNavNewProduct
+    background-color #FFFFFF
+    position relative
+    .menuNavNewProductPanel
+      width 100%
+      height $rem(126)
+      overflow hidden
+      position relative
+      .menuNavNewProduct
+        height $rem(126)
+        overflow hidden
+        .selected
+          border-bottom 2px solid #80b532
+        & li
+          width $rem(210)
+          height $rem(121)
+          text-align center
+          float left
+          &.selected>a
+            color #80b532
+          & a
+            text-align center
+            font-family 'Microsoft YaHei'
+            font-size .6rem
+            font-weight bold
+            display block
+            width $rem(210)
+            height $rem(120)
+            line-height $rem(120)
+.home-body
+  background-color rgb(242, 242, 242)
+  .mint-loadmore-top
+    text-align center
+    height $rem(126)
+    line-height $rem(126)
+    margin-top $rem(126)
+    font-size .6rem
+    font-weight bold
+  .item-banner
+    position relative
+    overflow hidden
+    height 10.6rem
+    .swiper-container
+      width 4000px
+      height 10.6rem
+      .swiper-item
+        float left
+        &>a
+          display block
+          height 10.7rem
+        img
+          height 100%
+
+    .swiper-pagination
+      text-align center
+      width 100%
+      position absolute
+      bottom 10px
+      left 0
+      .swiper-pagination-bullet
+        display inline-block
+        width 8px
+        height 8px
+        margin 0 -1px
+        background-color #FFFFFF
+        border-radius 50%
+  .item-combo
+    margin-bottom .5rem
+    .img-wrap
+      img
+        width 100%
+#bottombar
+  position fixed
+  bottom 0
+  z-index 100
+  height 2.13rem
+  width 100%
+  background-color #f8f8f8
+  border-top 1px solid #ddd
+#footermenuNav
+  text-align center
+  overflow hidden
+  li
+    float left
+    width 20%
+    position relative
+    margin 0 auto
+    &>a
+      display block
+      text-align center
+      font-size: .1rem;
+      &>span
+        font-size .5rem
+      .homeico
+        background-image url("../img/icon01.png")
+      .typeico
+        background-image url("../img/icon02.png")
+      .strollico
+        background-image url("../img/icon03.png")
+      .shoppingcartico
+        background-image url("../img/icon04.png")
+      .accountcenterico
+        background-image url("../img/icon05.png")
+  .ico
+    width 100%
+    height 1.65rem
+    background-position center
+    background-repeat no-repeat
+    background-size 28%
+    margin-bottom -.2rem
+.download-wrap
+  position fixed
+  bottom 2.14rem
+  left 0
+  right 0
+  height 2.77rem
+  background url("../img/downloadBottom.png") no-repeat 0 0
+  background-size 100%
+  img
+    position absolute
+    left 4.8%
+    top -1.77rem
+    width 15.5%

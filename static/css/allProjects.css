@@ -1,0 +1,197 @@
+.toTop {
+  position: fixed;
+  right: 2%;
+  bottom: 3rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  color: #fff;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.toTop:after {
+  content: '';
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background: url("../img/arrowLeft.png") no-repeat center;
+  background-size: 60%;
+}
+#topbar {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+#topbar .header-content {
+  text-align: center;
+  height: 1.866666666666667rem;
+  line-height: 1.866666666666667rem;
+  background-color: #89be48;
+  font-family: 'Microsoft YaHei';
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #fff;
+}
+#topbar .search-panel {
+  background-color: #f2f2f2;
+  padding: 0.15rem 0;
+}
+#search-bar {
+  width: 94%;
+  height: 1.39rem;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 0.2rem;
+  text-align: center;
+  position: relative;
+  font-size: 0.7rem;
+}
+#search-bar .searchinput {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: 'Microsoft YaHei';
+  background: url("../img/icon06.png") no-repeat 38% 0.25rem #fff;
+  background-size: auto 70%;
+  padding-left: 1.39rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+#search-bar .changeStyle {
+  width: 88% !important;
+  text-align: left !important;
+  background-position: 0.2rem 0.25rem !important;
+}
+#search-bar .sch-cancel {
+  width: 15%;
+  height: 100%;
+  line-height: 1.45rem;
+  display: block;
+  float: right;
+  color: #83b842;
+  font-family: 'Microsoft YaHei';
+  text-align: right;
+  background-color: transparent;
+}
+#content-wrap {
+  position: absolute;
+  top: 3.733333333333333rem;
+  width: 100%;
+  height: 22.64rem;
+  overflow-y: scroll;
+}
+#content-wrap .life-goodsBox {
+  margin-top: 1rem;
+  font-family: 'Microsoft YaHei';
+}
+#content-wrap .life-goodsBox .life-goodsTip {
+  width: 5rem;
+  text-align: center;
+  margin: auto;
+}
+#content-wrap .life-goodsBox .life-goodsTip .life-goodsMark {
+  line-height: 1.4rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.078rem;
+}
+#content-wrap .life-goodsBox .life-goodsUl {
+  background-color: #fff;
+}
+#content-wrap .life-goodsBox .onlyStyle li {
+  float: left;
+  height: 5.9rem;
+  width: 33%;
+  text-align: center;
+  border: 1px solid #f1f1f1;
+  margin: 0 0 -1px -1px;
+}
+#content-wrap .life-goodsBox .onlyStyle li img {
+  width: 60% !important;
+  margin: auto;
+  padding-top: 0.5rem;
+}
+#content-wrap .life-goodsBox .onlyStyle li dl {
+  height: 1rem;
+  line-height: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.25rem;
+  font-size: 0.6rem;
+}
+#bottombar {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  height: 2.13rem;
+  width: 100%;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+}
+#footermenuNav {
+  text-align: center;
+  overflow: hidden;
+}
+#footermenuNav li {
+  float: left;
+  width: 20%;
+  position: relative;
+  margin: 0 auto;
+}
+#footermenuNav li>a {
+  display: block;
+  text-align: center;
+  font-size: 0.1rem;
+}
+#footermenuNav li>a>span {
+  font-size: 0.5rem;
+}
+#footermenuNav li>a .homeico {
+  background-image: url("../img/icon01.png");
+}
+#footermenuNav li>a .typeico {
+  background-image: url("../img/icon02.png");
+}
+#footermenuNav li>a .strollico {
+  background-image: url("../img/icon03.png");
+}
+#footermenuNav li>a .shoppingcartico {
+  background-image: url("../img/icon04.png");
+}
+#footermenuNav li>a .accountcenterico {
+  background-image: url("../img/icon05.png");
+}
+#footermenuNav .ico {
+  width: 100%;
+  height: 1.65rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28%;
+  margin-bottom: -0.2rem;
+}
+.download-wrap {
+  position: fixed;
+  bottom: 2.14rem;
+  left: 0;
+  right: 0;
+  height: 2.77rem;
+  background: url("../img/downloadBottom.png") no-repeat 0 0;
+  background-size: 100%;
+}
+.download-wrap img {
+  position: absolute;
+  left: 4.8%;
+  top: -1.77rem;
+  width: 15.5%;
+}
+#app {
+  overflow: hidden;
+  height: 28.47rem;
+  background-color: #f2f2f2;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
