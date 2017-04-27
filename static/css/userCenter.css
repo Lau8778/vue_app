@@ -1,0 +1,291 @@
+#app {
+  font-family: 'Microsoft YaHei';
+}
+.toTop {
+  position: fixed;
+  right: 2%;
+  bottom: 3rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  color: #fff;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.toTop:after {
+  content: '';
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background: url("../img/arrowLeft.png") no-repeat center;
+  background-size: 60%;
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #89be48;
+}
+.header .header-content {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.header .header-content .header-title {
+  line-height: 1.89rem;
+  font-size: 0.9rem;
+  font-family: 'Microsoft YaHei';
+  text-align: center;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.header .header-content .editcart {
+  font-size: 0.79rem;
+  color: #fff;
+  line-height: 1.89rem;
+  margin-right: 2%;
+  position: absolute;
+  right: 2%;
+  top: 0;
+  z-index: 9;
+}
+.uscenter-cont {
+  margin-top: 1.91rem;
+  padding-bottom: 2.2rem;
+  color: #2e2e2e;
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+.uscenter-cont .mint-loadmore-top {
+  margin-top: -1.91rem;
+  text-align: center;
+  height: 1.89rem;
+  line-height: 1.89rem;
+  font-size: 0.5rem;
+}
+.uscenter-cont .acct-user-wrap {
+  width: 100%;
+  height: 4.18rem;
+  background: url("../img/background.png") no-repeat;
+  background-size: 100%;
+}
+.uscenter-cont .acct-user-wrap .acct-nolog {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.2rem 0 0;
+}
+.uscenter-cont .acct-user-wrap .acct-nolog .state {
+  display: block;
+  color: #222;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+}
+.uscenter-cont .acct-user-wrap .acct-nolog .btn-entry {
+  font-size: 0;
+  display: inline-block;
+  color: #009c42;
+  padding: 0 0.65rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  background: rgba(255,255,255,0.4);
+  border: 1px solid #009c42;
+  border-radius: 0.8rem;
+  margin: 0.2rem auto 0;
+}
+.uscenter-cont .acct-user-wrap .acct-nolog .btn-entry a {
+  display: inline-block;
+  height: 1.4rem;
+  color: #009c42;
+  font-size: 0.73rem;
+  padding: 0 0.28rem;
+}
+.uscenter-cont .acct-user-wrap .acct-nolog .btn-entry .split {
+  width: 0.02rem;
+  height: 0.6rem;
+  display: inline-block;
+  border-left: 0.02rem solid #009c42;
+  margin: 0 0.2rem;
+}
+.uscenter-cont .dashboard-order {
+  overflow: hidden;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  margin: 0 auto;
+}
+.uscenter-cont .dashboard-order ul {
+  width: 100%;
+  height: 2.3rem;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+.uscenter-cont .dashboard-order li {
+  width: 33%;
+  height: 1.2rem;
+  float: left;
+  border-right: 1px solid #dedede;
+  line-height: 1rem;
+  margin: 0.8rem 0 0;
+}
+.uscenter-cont .dashboard-order li a {
+  display: block;
+  text-align: center;
+  color: #585858;
+}
+.uscenter-cont .dashboard-order li a .item-icon {
+  display: inline-block;
+  position: relative;
+}
+.uscenter-cont .dashboard-order li a .item-icon span {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.8rem;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: center 120%;
+}
+.uscenter-cont .dashboard-order li a .item-icon #ico1 {
+  background-image: url("../img/unpaid.png");
+}
+.uscenter-cont .dashboard-order li a .item-icon #ico2 {
+  background-image: url("../img/deliver.png");
+}
+.uscenter-cont .dashboard-order li a .item-icon #ico3 {
+  background-image: url("../img/take_delivery.png");
+}
+.uscenter-cont .dashboard-order li a .item-icon #ico4 {
+  background-image: url("../img/wait_comment.png");
+}
+.uscenter-cont .dashboard-order li a .item-icon #ico5 {
+  background-image: url("../img/reply.png");
+  background-position: -0.2rem -0.15rem;
+}
+.uscenter-cont .dashboard-order li a .item-icon #ico6 {
+  background-image: url("../img/exchange_goods.png");
+}
+.uscenter-cont .dashboard-order li a .item-title {
+  display: inline-block;
+  vertical-align: 56%;
+  font-size: 0.5rem;
+  color: #585858;
+  line-height: 1.2rem;
+}
+.uscenter-cont .dashboard ul {
+  margin-bottom: 0.5rem;
+}
+.uscenter-cont .dashboard ul li {
+  width: 100%;
+  height: 2.3rem;
+  overflow: hidden;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  margin: -1px auto 0;
+}
+.uscenter-cont .dashboard ul li a {
+  width: 100%;
+  height: 2.3rem;
+  display: block;
+}
+.uscenter-cont .dashboard ul li .item-i {
+  width: 1.15rem;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  margin: 0.65rem 0.55rem 0;
+}
+.uscenter-cont .dashboard ul li .item-title {
+  display: inline-block;
+  line-height: 2.5rem;
+  float: left;
+  font-size: 0.6rem;
+  color: #585858;
+}
+.uscenter-cont .dashboard ul li .arr-r {
+  width: 0.4rem;
+  height: 0.4rem;
+  display: inline-block;
+  float: right;
+  border-right: 2px solid #bbb;
+  border-top: 2px solid #bbb;
+  margin: 0.9rem 0.4rem 0 0;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+#bottombar {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  height: 2.13rem;
+  width: 100%;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+}
+#footermenuNav {
+  text-align: center;
+  overflow: hidden;
+}
+#footermenuNav li {
+  float: left;
+  width: 20%;
+  position: relative;
+  margin: 0 auto;
+}
+#footermenuNav li>a {
+  display: block;
+  text-align: center;
+  font-size: 0.1rem;
+}
+#footermenuNav li>a>span {
+  font-size: 0.5rem;
+}
+#footermenuNav li>a .homeico {
+  background-image: url("../img/icon01.png");
+}
+#footermenuNav li>a .typeico {
+  background-image: url("../img/icon02.png");
+}
+#footermenuNav li>a .strollico {
+  background-image: url("../img/icon03.png");
+}
+#footermenuNav li>a .shoppingcartico {
+  background-image: url("../img/icon04.png");
+}
+#footermenuNav li>a .accountcenterico {
+  background-image: url("../img/icon05.png");
+}
+#footermenuNav .ico {
+  width: 100%;
+  height: 1.65rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28%;
+  margin-bottom: -0.2rem;
+}
+.download-wrap {
+  position: fixed;
+  bottom: 2.14rem;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: 2.77rem;
+  background: url("../img/downloadBottom.png") no-repeat 0 0;
+  background-size: 100%;
+}
+.download-wrap img {
+  position: absolute;
+  left: 4.8%;
+  top: -1.77rem;
+  width: 15.5%;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
