@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LifeVC丽芙家居</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+  <meta name="Keywords" content="LifeVC，新鲜生活，力夫，丽芙家居，家纺，家居，家具，床上四件套，枕头，被子，床垫，卫浴，毛巾，家居服，收纳，盖毯，家具">
+  <meta name="Description" content="LifeVC，design happiness for your home。现在就访问LifeVC（中国）官方商城，多达10000种欧洲家居灵感，陪你生活一辈子！">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+
+<div id="app">
+  <div>
+    <div id="loginBg" class="acct-wrap">
+      <div class="old_user_login">
+        <label class="acct_top_back"></label>
+        <img src="./img/login-logo.png" class="acct_top_show">
+      </div>
+      <div class="bg-wrap">
+        <div class="login_content">
+          <h1>老用户登录</h1>
+          <div id="wrap">
+            <div>
+              <form id="reset-form">
+                <ul class="fm_list">
+                  <li class="multi">
+                    <input type="tel" class="field_ipt" required="required"
+                           maxlength="11" placeholder="请输入手机号">
+                    <a href="###" class="fidld_skip">获取验证码</a>
+                  </li>
+                  <li>
+                    <input type="text" id="loginVerifyCode" class="field_ipt"
+                           required="required" maxlength="10" placeholder="请输入手机验证码">
+                  </li>
+                </ul>
+                <div class="set_link">
+                  <p class="problem_contact_service">
+                    遇到问题？请<a href="###">联系客服</a>
+                  </p>
+                  <a href="###">
+                    <b></b>
+                    <span>账号密码登录</span>
+                  </a>
+                </div>
+              </form>
+            </div>
+            <div></div>
+            <input type="button" class="btn_login" value="登录">
+            <input type="button" class="btn_regisiter" value="注册">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+<script type="text/javascript">
+  (function () {
+    // rem适配
+    const WIDTH = document.documentElement.clientWidth
+    var styleEle = document.createElement('style')
+    styleEle.innerHTML = 'html{font-size:' + WIDTH/16 + 'px !important}'
+    document.head.appendChild(styleEle)
+  })()
+</script>
+</html>
