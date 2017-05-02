@@ -1,0 +1,271 @@
+#app {
+  font-family: 'Microsoft YaHei';
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.toTop {
+  position: fixed;
+  right: 2%;
+  bottom: 3rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  color: #fff;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.toTop:after {
+  content: '';
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background: url("../img/arrowLeft.png") no-repeat center;
+  background-size: 60%;
+}
+#topbar {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+}
+#topbar .wrap-head {
+  position: relative;
+  height: 1.866666666666667rem;
+  background-color: #89be48;
+}
+#topbar .wrap-head .header-icon {
+  width: 100%;
+  height: 1.866666666666667rem;
+  background: url("../img/title.png") no-repeat center;
+  background-size: 50%;
+}
+#topbar .wrap-head>a .header-typeimg {
+  display: block;
+  width: 1.866666666666667rem;
+  height: 1.866666666666667rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../img/search.png") no-repeat center;
+  background-size: 45%;
+}
+#topbar .wrap-menuNavNewProduct {
+  background-color: #fff;
+  position: relative;
+}
+#topbar .wrap-menuNavNewProduct .menuNavNewProductPanel {
+  width: 100%;
+  height: 1.866666666666667rem;
+  overflow: hidden;
+  position: relative;
+}
+#topbar .wrap-menuNavNewProduct .menuNavNewProductPanel .menuNavNewProduct {
+  height: 1.866666666666667rem;
+  overflow: hidden;
+}
+#topbar .wrap-menuNavNewProduct .menuNavNewProductPanel .menuNavNewProduct .selected {
+  border-bottom: 2px solid #80b532;
+}
+#topbar .wrap-menuNavNewProduct .menuNavNewProductPanel .menuNavNewProduct li {
+  width: 3.111111111111111rem;
+  height: 1.792592592592593rem;
+  text-align: center;
+  float: left;
+}
+#topbar .wrap-menuNavNewProduct .menuNavNewProductPanel .menuNavNewProduct li.selected>a {
+  color: #80b532;
+}
+#topbar .wrap-menuNavNewProduct .menuNavNewProductPanel .menuNavNewProduct li a {
+  text-align: center;
+  font-family: 'Microsoft YaHei';
+  font-size: 0.6rem;
+  font-weight: bold;
+  display: block;
+  width: 3.111111111111111rem;
+  height: 1.777777777777778rem;
+  line-height: 1.777777777777778rem;
+}
+.home-body {
+  background-color: #f2f2f2;
+  margin-bottom: 1.8rem;
+}
+.home-body .mint-loadmore-top {
+  text-align: center;
+  height: 1.866666666666667rem;
+  line-height: 1.866666666666667rem;
+  margin-top: 1.866666666666667rem;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+.home-body .wrap-shelf {
+  width: 100%;
+  margin: -3rem auto 1rem;
+  padding: 3rem 0 0;
+}
+.subcat-title {
+  max-width: 96%;
+  text-align: center;
+  font-size: 0.8em;
+  color: #000;
+  line-height: 2.3em;
+  margin: 0 auto;
+}
+.shelf-item {
+  position: relative;
+  width: 96%;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  font-size: 0.8rem;
+}
+.shelf-item .item-pic-bx {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+.shelf-item .item-panel {
+  width: 100%;
+  background: #fff;
+  color: #333;
+  padding-bottom: 0.15rem;
+  overflow: hidden;
+  line-height: 1.3rem;
+  font-size: 0.63rem;
+  font-weight: 600;
+}
+.shelf-item .item-panel .act-tag {
+  background-color: #fff000;
+}
+.shelf-item .item-panel .title {
+  width: 94%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: left;
+  color: #333;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: 0.23rem;
+}
+.shelf-item .item-panel .item-price {
+  width: 94%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.shelf-item .item-panel .item-price .price-cont {
+  min-width: 68%;
+  overflow: hidden;
+  float: left;
+  line-height: 0.9rem;
+}
+.shelf-item .item-panel .item-price .original-price {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.shelf-item .item-panel .item-price .promo-lable {
+  display: inline-block;
+  background-color: #c00;
+  color: #fff;
+  padding: 0.01rem 0.11rem;
+}
+.shelf-item .item-panel .item-price .item-comment {
+  float: right;
+  text-align: right;
+  color: #999;
+}
+.shelf-item .item-pic {
+  width: 100%;
+  display: block;
+  vertical-align: top;
+  margin: 0 auto;
+  position: static;
+}
+.item-status-empty {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  line-height: 3rem;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -1.6rem;
+  margin-left: -1.6rem;
+}
+#loadingAlert {
+  text-align: center;
+  color: #888;
+  padding-bottom: 1rem;
+  font-size: 0.5rem;
+}
+#bottombar {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  height: 2.13rem;
+  width: 100%;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+}
+#footermenuNav {
+  text-align: center;
+  overflow: hidden;
+}
+#footermenuNav li {
+  float: left;
+  width: 20%;
+  position: relative;
+  margin: 0 auto;
+}
+#footermenuNav li>a {
+  display: block;
+  text-align: center;
+  font-size: 0.1rem;
+}
+#footermenuNav li>a>span {
+  font-size: 0.5rem;
+}
+#footermenuNav li>a .homeico {
+  background-image: url("../img/icon01.png");
+}
+#footermenuNav li>a .typeico {
+  background-image: url("../img/icon02.png");
+}
+#footermenuNav li>a .strollico {
+  background-image: url("../img/icon03.png");
+}
+#footermenuNav li>a .shoppingcartico {
+  background-image: url("../img/icon04.png");
+}
+#footermenuNav li>a .accountcenterico {
+  background-image: url("../img/icon05.png");
+}
+#footermenuNav .ico {
+  width: 100%;
+  height: 1.65rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28%;
+  margin-bottom: -0.2rem;
+}
+.download-wrap {
+  position: fixed;
+  bottom: 2.14rem;
+  left: 0;
+  right: 0;
+  height: 2.77rem;
+  background: url("../img/downloadBottom.png") no-repeat 0 0;
+  background-size: 100%;
+}
+.download-wrap img {
+  position: absolute;
+  left: 4.8%;
+  top: -1.77rem;
+  width: 15.5%;
+}
